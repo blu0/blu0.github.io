@@ -4,4 +4,4 @@
 Start with Nmap scan
 `nmap -Pn -sT -sV -O 192.168.17.139 -p1-65000`
 
-![Image of Nmap](https://blu0.github.com/LSAWalkthrough/LSAnmap.png)
+![Image of Nmap](http://blu0.github.com/LSAWalkthrough/LSAnmap.png)
