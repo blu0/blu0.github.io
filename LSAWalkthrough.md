@@ -7,6 +7,7 @@ Start with Nmap scan
 ![Image of Nmap](https://blu0.github.io/LSAWalkthrough/LSAnmap.png)
 
 Let’s take a look at the website
+
 ![Image of Site](https://blu0.github.io/LSAWalkthrough/LSAsite.png)
 
 Nothing to really see off –hand, time for some more enumeration
