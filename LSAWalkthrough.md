@@ -54,15 +54,17 @@ Then ran it through some mutations with John The Ripper:
 
 `john --wordlist=/root/lazycewl.txt --rules --stdout > lazymutate.txt`
 
-`wpscan –u http://192.168.17.139/wordpress –wordlist lazymutate.txt –username admin`
+Using WPscan to try and Brute Force the password:
 
-I tried rockyou for a few minutes before cancelling it, brute force is probably not the answer at this point, but we can return to it if no other information is found. Maybe the password is somewhere else.
+`wpscan -u http://192.168.17.139/wordpress/ -w /roo/lazymutate.txt -U admin`
+
+No hits, and I also tried rockyou for a few minutes before cancelling it. Brute force is probably not the answer at this point, but we can return to it if no other information is found. Maybe the password is somewhere else.
 
 Time to check the SMB port and see if there is any relevant data to be found. I probably could have done this a little earlier and saved some time, but here goes.
 
 `enum4linux -a 192.168.17.139`
 
-![Image of Enum4Linux](https://blu0.github.io/LSAWalkthrough/LSAenum4linux.png)
+![Image of Enum4Linux](https://blu0.github.io/LSAWalkthrough/LASenum4linux.png)
 
 There are a few options, but `share$` looks interesting since it is not a default.
 
