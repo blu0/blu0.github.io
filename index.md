@@ -1,6 +1,6 @@
-## Welcome to blu0.github.io
+## Welcome to blu0.github.io  - A Cybersecurity Blog
+`cyberSecurity = 'All Day' !Err: 'Day'`
 
-A Cybersecurity Blog
-
+### Walkthroughs
 [LazySysAdmin 1.0 Walkthrough](https://blu0.github.io/LSAWalkthrough/)
 
