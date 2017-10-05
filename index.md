@@ -1,10 +1,10 @@
-### Blog(https://blu0.github.io/Blog)
+### Blog
 
 
 ### Walkthroughs
 [LazySysAdmin 1.0 Walkthrough](https://blu0.github.io/LSAWalkthrough)
 
-### Projects(https://blu0.github.io/Projects)
+### Projects
 
 
 ### Pentesting
