@@ -1,5 +1,13 @@
 <h1>LazySysAdmin 1.0 Walkthrough</h1>
 
+Author Description: "Boot2root created out of frustration from failing my first OSCP exam attempt."
+
+Difficulty: Beginner - Intermediate
+
+
+Challenge Accepted...
+
+
 Start things off with an Nmap scan (of course).
 
 `nmap -Pn -sT -sV -O 192.168.17.139 -p1-65000`
