@@ -20,3 +20,11 @@ Robots.txt shows the same directories
 `/old/` and `/test/` show nothing
 Poked at `/myphpadmin/` but it requires a password. A few guesses proved useless
 There is a Wordpress site, but nothing seems to load. Who cares? I’m going to add `/wp-admin/` anyway and see if there is a login
+
+Voila!
+![Image of Nikto](https://blu0.github.io/LSAWalkthrough/LSAwp-admin.png)
+
+Now it's time for some WPScan to see what usernames are there
+![Image of Nikto](https://blu0.github.io/LSAWalkthrough/LSAwpscane.png)
+![Image of Nikto](https://blu0.github.io/LSAWalkthrough/LSAwpscanadmin.png)
+
