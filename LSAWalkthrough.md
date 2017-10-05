@@ -41,6 +41,7 @@ WordPress looks like the most viable path at the moment, and it would be a quick
 It's time for some WPScan to see what usernames are there.
 
 ![Image of WPscan](https://blu0.github.io/LSAWalkthrough/LSAwpscane.png)
+
 ![Image of WPscan2](https://blu0.github.io/LSAWalkthrough/LSAwpscanadmin.png)
 
 So we have Admin and nothing else. Ok then.
@@ -142,4 +143,7 @@ Looks like a restricted shell, but this doesn't faze me.
 
 Proof.txt is mine, plus I have the root password hash if I want to crack it later.
 
+I could experiment with breaking out of the restricted shell (probably vim would work here), but I didn't bother at this point.
 
+
+Overall, I think this was a good challenge, and a good reminder to enumerate thoroughly before moving too fast from one phase to the next.
