@@ -1,6 +1,7 @@
 <h1>LazySysAdmin 1.0 Walkthrough</h1>
 
 Start things off with an Nmap scan (of course).
+
 `nmap -Pn -sT -sV -O 192.168.17.139 -p1-65000`
 
 ![Image of Nmap](https://blu0.github.io/LSAWalkthrough/LSAnmap.png)
@@ -12,6 +13,7 @@ A few different places to start, but I'll take a look at the website first.
 Nothing really jumps out after looking around for a bit, so time for some more enumeration.
 
 I'll go with trusty old Nikto here.
+
 `nikto -h 192.168.17.139`
 ![Image of Nikto](https://blu0.github.io/LSAWalkthrough/LSAnikto.png)
 
