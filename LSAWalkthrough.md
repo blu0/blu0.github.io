@@ -22,7 +22,7 @@ So there's a few different places to start, but I'll take a look at the website 
 
 Nothing really jumps out after looking around for a bit, so time for some more web enumeration.
 
-I'll go with trusty old Nikto here and move to Dirbuster, etc if I needed.
+I'll go with trusty old Nikto here, and move to Dirbuster, etc if needed.
 
 `nikto -h 192.168.17.139`
 
