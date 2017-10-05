@@ -1,4 +1,4 @@
-## Welcome to blu0.github.io  - A Cybersecurity Blog
+## Welcome to blu0 - a cybersecurity blog
 `cyberSecurity = 'All Day' !Err: 'Day'`
 
 ### Walkthroughs
