@@ -7,6 +7,13 @@ I don't want to re-invent the wheel here, so I'm just gonna list some of the bet
 
 [Penetration Testing Tools Cheat Sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/)
 
+## Exploits
+[Exploit-DB](https://www.exploit-db.com/)
+
+[Kernel Exploits](https://github.com/lucyoa/kernel-exploits)
+
+[Exploit Database Binary Exploits](https://github.com/offensive-security/exploit-database-bin-sploits)
+
 ## Buffer Overflows
 [Simple Buffer Overflows](http://netsec.ws/?p=180)
 
