@@ -125,7 +125,7 @@ User `togie` looks interesting. I tried swiching to togie with the WordPress pas
 
 Did I overlook something previously?
 
-Yes, actually. It occurs to me tht I haven't explored my SMB share nearly enough, so I go back to the SMB share and grab deets.txt
+Yes, actually. It occurs to me that I haven't explored my SMB share nearly enough, so I go back to the SMB share and grab deets.txt
 
 ![Image of deets](https://blu0.github.io/LSAWalkthrough/LSAdeets.png)
 
