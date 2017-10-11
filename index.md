@@ -8,6 +8,3 @@
 
 ## Projects
 Nothing to see here at the moment...
-
-## Blog
-Maybe someday...
