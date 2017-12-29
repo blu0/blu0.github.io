@@ -1,2 +1,0 @@
-https://doc.opensuse.org/documentation/leap/virtualization/html/book.virt/cha.qemu.running.html
-https://unix.stackexchange.com/questions/170043/sort-and-count-number-of-occurrence-of-lines/263849
