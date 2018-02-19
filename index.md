@@ -6,6 +6,7 @@
 ## Walkthroughs
 [LazySysAdmin 1.0 Walkthrough](https://blu0.github.io/LSAWalkthrough)
 
-## Projects
-Nothing to see here at the moment...
-
+## Projects/Repositories
+[Basic port scanning](https://github.com/blu0/Scanning)
+[Useful Windows Commands](https://github.com/blu0/windows-stuff)
+[MS IIS WebDav Exploits](https://github.com/blu0/webdav-exploit)
