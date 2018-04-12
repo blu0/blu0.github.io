@@ -66,6 +66,6 @@ Found 2 flags:
 
 ![Image of flags](https://blu0.github.io/DNSWalkthrough/flags.png)
 
-Poking around it looks like MySQL was flag2...? I kind of stopped really bothering at this point tho.
+Poking around it looks like MySQL was flag2...? I kind of stopped really bothering at this point tho. (I already won, leave me alone!)
 
-
+All in all, this was a fun machine.
