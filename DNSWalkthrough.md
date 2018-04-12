@@ -35,6 +35,8 @@ Ran some Nikto and Dirbuster scans until I got some useful results:
 
 So there is a Wordpress site... ezpz.. enumerate users and plugins.
 
+`wpscan --url http://192.168.92.135/weblog -e vp -e u`
+
 ![Image of wpscan](https://blu0.github.io/DNSWalkthrough/wpscan.png)
 
 Trying admin:admin seems to login fine, but it doesn't appear to be an actual admin account.
