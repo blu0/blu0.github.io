@@ -2,7 +2,7 @@
 * [Basics](https://blu0.github.io/Infosec)
 * [Penetration Testing](https://blu0.github.io/Methodology)
 
-## Walkthroughs
+## VulnHub Walkthroughs
 * [LazySysAdmin 1.0 Walkthrough](https://blu0.github.io/LSAWalkthrough)
 * [DerpNStink 1 Walkthrough](https://blu0.github.io/DNSWalkthrough)
 
