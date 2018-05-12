@@ -11,4 +11,4 @@
 * [Useful Windows Commands](https://github.com/blu0/windows-stuff/blob/master/Useful%20Commands.md)
 * [Add Local Admin/RDP](https://github.com/blu0/windows-stuff)
 * [MS IIS WebDav Exploits](https://github.com/blu0/webdav-exploit)
-
+* [Malware Persistence Checker](https://github.com/blu0/persistence-checker)
