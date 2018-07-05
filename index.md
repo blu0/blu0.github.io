@@ -7,7 +7,7 @@
 * [DerpNStink 1 Walkthrough](https://blu0.github.io/DNSWalkthrough)
 
 ## Projects/Repositories/Nonsense
-* [Basic Port Scanning](https://github.com/blu0/Scanning)
+* [Basic Network Scanning](https://github.com/blu0/Scanning)
 * [Useful Windows Commands](https://github.com/blu0/windows-stuff/blob/master/Useful%20Commands.md)
 * [Add Local Admin/RDP](https://github.com/blu0/windows-stuff)
 * [MS IIS WebDav Exploits](https://github.com/blu0/webdav-exploit)
