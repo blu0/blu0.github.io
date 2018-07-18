@@ -41,3 +41,17 @@ PentestLab Articles:
 * [Hot Potato](https://pentestlab.blog/2017/04/13/hot-potato/)
 * [Intel SYSRET](https://pentestlab.blog/2017/06/14/intel-sysret/)
 * [UAC Bypass Event Viewer](https://pentestlab.blog/2017/05/02/uac-bypass-event-viewer/)
+
+## Reverse Shells
+* [Upgrading simple shells to fully interactive TTYs (Method 3 FTW)](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
+* [Reverse Shell Cheat Sheet](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
+* [Msfvenom Cheat Sheet](http://security-geek.in/2016/09/07/msfvenom-cheat-sheet/)
+
+## Active Directory
+* [Active Directory Security](http://adsecurity.org/)
+* [Understanding and Exploiting Web-based LDAP](https://pen-testing.sans.org/blog/2017/11/27/understanding-and-exploiting-web-based-ldap)
+
+## Eternal Blue
+* [EternalBlue and Doublepulsar](https://www.ihacklabs.com/en/poc-eternalblue-and-doublepulsar-in-kali-2017-1-exploiting-smb-service-in-windows-7/)
+* [Exploiting Eternalblue with Empire & Msfconsole](https://www.hackingtutorials.org/exploit-tutorials/exploiting-eternalblue-for-shell-with-empire-msfconsole/)
+* [AutoBlue-MS17-010](https://github.com/3ndG4me/AutoBlue-MS17-010)
