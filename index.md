@@ -9,4 +9,4 @@
 ## Projects/Repositories/Nonsense
 * [Add Local Admin/RDP (bash)](https://github.com/blu0/windows-stuff)
 * [MS IIS WebDav Exploits](https://github.com/blu0/webdav-exploit)
-* [Test HTTP Methods (Python)] (https://github.com/blu0/Test-HTTP-Methods)
+* [Test HTTP Methods] (https://github.com/blu0/Test-HTTP-Methods)
