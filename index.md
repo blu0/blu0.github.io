@@ -11,3 +11,4 @@
 * [Test HTTP Methods (Python)](https://github.com/blu0/Test-HTTP-Methods)
 * [Add Local Admin/RDP (Batch)](https://github.com/blu0/windows-stuff)
 * [Registry Scraper (Batch)](https://github.com/blu0/registry-scraper)
+* [Simple Ping Sweeper (Bash)](https://github.com/blu0/Scanning)
